@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+*{
+	padding: 0;
+	margin: 0;
+	/*border: 1px solid #ccc;*/
+}
+p, .a a{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+img{
+	width: 100%;
+	max-width: 100%;
+}
+.col-2{
+  width: 50%;
+  max-width: 50%;	
+}
+
+.col-3{
+    width: 100%;
+ /*/////////home/////////*/
+}
+#home{
+    height: 1000px;
+}
+#nav{
+	display: inline-flex;
+	padding: 10px;
+	width: 98%;
+	background-color: white;
+    /*position: absolute;*/
+}
+.noven{
+	border: 2px solid black;
+	padding: 5px 0px 5px 5px;
+    margin: 1%;
+}
+.a{
+    margin: auto;
+    width: 55%;
+    margin-right: 0;
+}
+.a a{
+    text-decoration: none;
+    color: black;
+    margin: 0 8%;
+    font-size: 1.5em;
+}
+.icons{
+    margin-left: 185%;
+    margin-top: 12%;
+    width: 0%;
+    position: absolute;
+    height: 123px;
+    display: block;
+    font-size: 1.5em;
+}
+.icons a{
+     color: #402F31; 
+}
+.container{
+	height: 90%;
+    background-color: #BBC7BA;
+}
+.img{
+	border: 22px solid white;
+	margin: 63px 0 0 30px;
+}
+.back{
+    background: white;
+    width: 52%;
+    position: absolute;
+    height: 900px;
+    display: inline-block;
+}
+.textCont{
+    left: 555px;
+    position: absolute;
+    width: 100%;
+    height: 430px;
+    top: 200px;
+    background-color: white;
+}
+.textBox{
+    width: 93%;
+    background-color: #e4ded8;
+    height: 385px;
+    border: 22px solid white;
+}
+.greeting{
+	font-size: 4em;
+    font-weight: bolder;
+    color: #402F31;
+    margin: 68px 0 0 54px;
+}
+@keyframes typing{
+	from{width: 0;}
+	to{width: 51%}
+}
+@keyframes blinking-cursor {
+  from, to { border-color: transparent }
+  50% { border-color: #9B7777; }
+}
+.typewriter{
+	color: #9B7777;
+	font-size: 2.5em;
+	margin: auto 57px;
+	overflow: hidden;
+	white-space: nowrap;
+	border-right: .05em solid #9B7777;
+	animation: 
+        typing 4s steps(40, end),
+        blinking-cursor .5s step-end infinite;
+}
