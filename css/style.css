@@ -22,7 +22,7 @@ img{
  /*/////////home/////////*/
 }
 #home{
-    height: 1000px;
+    height: 1015px;
 }
 #nav{
 	display: inline-flex;
@@ -47,7 +47,7 @@ img{
     margin: 0 8%;
     font-size: 1.5em;
 }
-.icons{
+/*.icons{
     margin-left: 185%;
     margin-top: 12%;
     width: 0%;
@@ -58,7 +58,7 @@ img{
 }
 .icons a{
      color: #402F31; 
-}
+}*/
 .container{
 	height: 90%;
     background-color: #BBC7BA;
@@ -71,7 +71,7 @@ img{
     background: white;
     width: 52%;
     position: absolute;
-    height: 900px;
+    height: 914px;
     display: inline-block;
 }
 .textCont{
@@ -112,4 +112,38 @@ img{
 	animation: 
         typing 4s steps(40, end),
         blinking-cursor .5s step-end infinite;
+}
+/*//////////////about/////////////*/
+#about{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+.gray{
+    width: 70%;
+}
+.pinkBack{
+    width: 70%;
+    margin-top: 21px;
+    border-left: 54px solid white;
+    background-color: #e4ded8;
+    height: 710px;
+}
+.lapimg{
+    position: absolute;
+    margin: 85px 0 0 144px;
+    border: 22px solid white;
+}
+.col-1{
+    width: 30%;
+    margin: 132px 0 0 -87px;
+}
+h2{
+    font-size: 3em;
+    font-weight: bolder;
+    color: #402F31;
+    margin: 0 0 35px 0px;
+}
+.col-1 p{
+    font-size: 1.1em;
 }
